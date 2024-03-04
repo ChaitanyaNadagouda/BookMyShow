@@ -20,13 +20,18 @@ DTOs (Data Transfer Objects): Demonstrates the usage of request and response DTO
 # Technologies Used
 
 Maven: For project management and dependency resolution.
+
 Spring Boot: Provides a framework for building robust and scalable applications.
+
 Hibernate: Handles database operations and schema definitions via annotations.
+
 MySQL/PostgreSQL: Database systems used for storing user and show information.
 
 # Prerequisites
 Java JDK installed on your system
+
 Maven installed on your system
+
 MySQL database server installed and running
 
 # Setup Instructions
@@ -40,7 +45,9 @@ cd book-my-show-backend
 Open application.properties file in src/main/resources directory and configure your MySQL database connection settings:
 properties
 spring.datasource.url=jdbc:mysql://localhost:3306/book_my_show
+
 spring.datasource.username=your_username
+
 spring.datasource.password=your_password
 
 # How to Run
@@ -57,8 +64,11 @@ The application will start running and it interacts via CommandLine Runner .
 # What You Can Learn
 
 Backend Logic: Understand how various backend functionalities are implemented, including user authentication and show booking.
+
 Database Handling: Explore database schema design and interaction with Spring Boot using Hibernate.
+
 Concurrency Management: Learn about handling concurrent requests in a transactional environment.
+
 DTO Usage: Gain insights into using DTOs for request/response handling, improving communication between frontend and backend.
 
 # Still to Explore
