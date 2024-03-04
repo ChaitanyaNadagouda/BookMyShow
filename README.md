@@ -4,11 +4,17 @@ This repository showcases a low-level design implementation of the backend part 
 
 # Features
 Booking shows
+
 User sign-up
+
 User login using Spring Security
+
 Password encryption using BCryptGenerator
+
 Show Booking: Enables users to search for shows, select seats, and book tickets for desired shows.
+
 Concurrency Handling: Implements isolation level of serializable to handle concurrent booking requests effectively.
+
 DTOs (Data Transfer Objects): Demonstrates the usage of request and response DTOs for communication between the frontend and backend.
 
 # Technologies Used
