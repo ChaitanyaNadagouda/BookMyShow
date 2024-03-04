@@ -12,8 +12,9 @@ import java.util.List;
 @Setter
 public class User extends  BaseModel{
     private String name ;
-    private String phoneNumber ;
+//    private String phoneNumber ;
     private String email ;
+    private String password ;
 //    1 : M
     @OneToMany
     private List<Booking> bookings ;
